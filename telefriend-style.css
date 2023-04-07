@@ -1,0 +1,147 @@
+
+html {
+    height: 200px;
+  }
+  
+  body {
+      color: black;
+      height: 200px;
+      background-color: rgb(139, 187, 130);
+      font-family: sans-serif;
+
+  }
+
+  .header {
+    position: relative;
+    text-align: center;
+    color: #a3d2d5;
+  }
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:rgba(163, 213, 184, 0.6);
+    width: 600px;
+    color:rgb(46, 59, 32);
+    padding:30px;
+    text-align:center;
+    font-size: 33px;
+  }
+
+  .side {
+    border: 5px solid rgb(79, 134, 101);
+  }
+
+  .description {
+    margin: 1%;
+    padding:1%;
+    text-align: center;
+    background:rgb(79, 134, 101);
+    box-shadow: -24px -24px 2px 1px rgb(50, 86, 64);
+    color: white;
+    width:500px;
+    font-family: 'Inter';
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .panel1 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    margin: 7%;
+  }
+
+  .panel2 {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content: space-around;
+
+  }
+
+   .signUpText {
+    font-family: 'Inter';
+    text-align: center;
+    background: rgb(50, 86, 64);
+    border: 20px solid rgb(79, 134, 101);
+    width: 350px;
+    color: white;
+    float:center;
+    margin:50px;
+   }
+
+   .signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+    flex-direction: column;
+
+  } 
+
+  .training {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+    flex-direction: column;
+    margin: 3%;
+  }
+
+  .trainingText {
+    font-family: 'Inter';
+    text-align: center;
+    background: rgb(50, 86, 64);
+    border: 20px solid rgb(79, 134, 101);
+    width: 350px;
+    color: white;
+    float:center;
+    margin:50px;
+  }
+
+  .box1, .box2, .box3 {
+    font-family: 'Inter';
+    text-align: center;
+    background: rgb(79, 134, 101);
+    border: 5px solid rgb(50, 86, 64);
+    width: 350px;
+    color: white;
+    float:center;
+    margin:35px;
+  }
+
+
+  .navbar {
+    font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      overflow: hidden; /* Hide overflow */
+      background-color: rgb(56, 72, 39); /* Dark background color */
+      size: 100vh;
+    }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    align-self: right;
+  }
+
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(71, 91, 50); /* Grey background color */
+    color: white; /* Black text color */
+  }

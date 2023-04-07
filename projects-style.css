@@ -1,0 +1,79 @@
+
+html {
+    height: 200px;
+  }
+  
+  body {
+      color: black;
+      background-color: rgb(139, 187, 130);
+      height: 200px;
+      font-family: sans-serif;
+
+  }
+
+  .header {
+    position: relative;
+    text-align: center;
+    color: #a3d2d5;
+  }
+
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:rgba(163, 213, 184, 0.6);
+    width: 600px;
+    color:rgb(46, 59, 32);
+    padding:30px;
+    text-align:center;
+    font-size: 33px;
+  }
+
+  .description {
+    align-items: center;
+    margin-left: 30%;
+    margin-top:100px;
+    
+    padding:1%;
+    text-align: center;
+    background:rgb(79, 134, 101);
+    box-shadow: -24px -24px 2px 1px rgb(50, 86, 64);
+    color: white;
+    width:500px;
+    font-family: 'Inter';
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-bottom: 1000px;
+    font-size:28px;
+  }
+
+  .navbar {
+    font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      overflow: hidden; /* Hide overflow */
+      background-color: rgb(56, 72, 39); /* Dark background color */
+      size: 100vh;
+    }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    align-self: right;
+  }
+
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  /* Change color on hover/mouse-over */
+  .navbar a:hover {
+    background-color: rgb(71, 91, 50); /* Grey background color */
+    color: white; /* Black text color */
+  }

@@ -1,0 +1,258 @@
+body {
+  color: black;
+  background-color: aliceblue;
+  height: 200px;
+  background-color: rgb(139, 187, 130);
+  font-family: sans-serif;
+
+}
+.header {
+  position: relative;
+  text-align: center;
+  color: #a3d2d5;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:rgba(163, 213, 184, 0.6);
+  width: 600px;
+  color:rgb(46, 59, 32);
+  padding:30px;
+  text-align:center;
+  font-size: 33px;
+}
+
+.header-text{
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.7;
+}
+
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    overflow: hidden; /* Hide overflow */
+    background-color: rgb(56, 72, 39); /* Dark background color */
+    size: 100vh;
+  }
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+  align-self: right;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+.navbar a:hover {
+  background-color: rgb(71, 91, 50); /* Grey background color */
+  color: white; /* Black text color */
+}
+
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+.About-Us{
+    color: rgb(46, 59, 32);
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(139, 187, 130);
+}
+
+.main{
+    background-color:rgb(139, 187, 130);
+    margin-top: 100px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 50px;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: rgb(139, 187, 130);
+}
+
+.grid-1{
+    border: 2px solid rgb(50, 86, 64);
+    background-color: rgb(79, 134, 101);
+    height: 430px;
+    width: 400px;
+}
+
+.grid1-text{
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.7;
+    text-align: center;
+    color: white;
+    font-size: 12.1px;
+}
+
+.grid-2{
+  border: 2px solid rgb(50, 86, 64);
+  background-color: rgb(79, 134, 101);
+    height: 430px;
+    width: 400px;
+}
+
+.grid-3{
+  border: 2px solid rgb(50, 86, 64);
+  background-color: rgb(79, 134, 101);
+    height: 430px;
+    width: 400px;
+    /* background:url("filler3.jpeg"); */
+    background-size:contain;
+
+}
+
+.grid-4{
+  border: 2px solid rgb(50, 86, 64);
+  background-color: rgb(79, 134, 101);
+    height: 430px;
+    width: 400px;
+}
+
+.grid4-text{
+    margin-left: 30px;
+    margin-right: 30px;
+    line-height: 1.7;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+
+.main2{
+  background-color:rgb(139, 187, 130);
+  margin-top: 100px;
+}
+
+.about-advisors-text{
+  color: rgb(46, 59, 32);
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(139, 187, 130);
+}
+
+.advisor-container{
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 50px;
+  row-gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  background-color: rgb(139, 187, 130);
+}
+
+.grid-5{
+  border: 2px solid rgb(50, 86, 64);
+  background-color: rgb(79, 134, 101);
+  height: 430px;
+  width: 400px;
+}
+
+.grid5-text{
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 1.7;
+  text-align: center;
+  color: white;
+  font-size: 12.1px;
+}
+
+.grid-6{
+  border: 2px solid rgb(50, 86, 64);
+  background-color: rgb(79, 134, 101);
+  height: 430px;
+  width: 400px;
+}
+
+.grid-7{
+  border: 2px solid rgb(50, 86, 64);
+  background-color: rgb(79, 134, 101);;
+  height: 430px;
+  width: 400px;
+  /* background:url("filler3.jpeg"); */
+  background-size:contain;
+
+}
+
+.grid-8{
+  border: 2px solid rgb(50, 86, 64);
+  background-color: rgb(79, 134, 101);
+  height: 430px;
+  width: 400px;
+}
+
+.grid8-text{
+  margin-left: 30px;
+  margin-right: 30px;
+  line-height: 1.7;
+  text-align: center;
+  color: white;
+  font-size: 9.3px;
+}
+
+.contact-us{
+  color: rgb(46, 59, 32);
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  justify-content: space-around;
+}
+
+.box1, .box2, .box3 {
+  font-family: 'Inter';
+  text-align: center;
+  border: 2px solid rgb(50, 86, 64);
+  background-color: rgb(79, 134, 101);
+  width: 350px;
+  color: white;
+  float:center;
+  margin:35px;
+}
+
+.please-contact-text {
+  font-family: 'Inter';
+  text-align: center;
+  background: rgb(50, 86, 64);
+  border: 20px solid rgb(79, 134, 101);
+  width: 350px;
+  color: white;
+  float:center;
+  margin:50px;
+ }
+
+ .sub-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 40vh;
+  flex-direction: column;
+
+} 

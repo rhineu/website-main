@@ -1,0 +1,137 @@
+body {
+    color: black;
+    background-color: aliceblue;
+    height: 200px;
+    background-color: rgb(139, 187, 130);
+    font-family: sans-serif;
+  
+  }
+  .header {
+    position: relative;
+    text-align: center;
+    color: #a3d2d5;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:rgba(163, 213, 184, 0.6);
+    width: 600px;
+    color:rgb(46, 59, 32);
+    padding:30px;
+    text-align:center;
+    font-size: 33px;
+  }
+  
+  .header-text{
+      margin-left: 30px;
+      margin-right: 30px;
+      line-height: 1.7;
+  }
+  
+  .navbar {
+    font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      overflow: hidden; /* Hide overflow */
+      background-color: rgb(56, 72, 39); /* Dark background color */
+      size: 100vh;
+    }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+    align-self: right;
+  }
+
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right; /* Float a link to the right */
+  }
+  
+  .navbar a:hover {
+    background-color: rgb(71, 91, 50); /* Grey background color */
+    color: white; /* Black text color */
+  }
+  
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row {
+        flex-direction: column;
+      }
+    }
+
+    .tools{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 5%;
+      align-items: center;
+      margin-top: 100px;
+    }
+
+    .crisis-rectangle {
+        margin: 3%;
+        padding:1%;
+        width:800px;
+        font-family: 'Inter';
+        padding-left: 3%;
+        padding-right: 3%;
+        color: white;
+
+        background: rgb(79, 134, 101);;
+        border-radius: 30px;
+      }
+
+      .crisis-lines {
+        display: flex;
+        flex-direction: row;
+        flex-flow: nowrap;
+        justify-content: space-around;
+        margin: 7%;
+      }
+
+      .digital-literacy{
+        margin: 3%;
+        padding:1%;
+        width:800px;
+        font-family: 'Inter';
+        padding-left: 3%;
+        padding-right: 3%;
+        color: white;
+
+        background: rgb(91, 155, 117);
+        border-radius: 30px;
+      }
+
+      .mental-health{
+        margin: 3%;
+        padding:1%;
+        width:800px;
+        font-family: 'Inter';
+        padding-left: 3%;
+        padding-right: 3%;
+        color: white;
+
+        background: rgb(102, 174, 131);
+        border-radius: 30px;
+      }
+
+      .healthy-habits{
+        margin: 3%;
+        padding:1%;
+        width:800px;
+        font-family: 'Inter';
+        padding-left: 3%;
+        padding-right: 3%;
+        color: white;
+
+        background: rgb(112, 192, 144);
+        border-radius: 30px;
+      }
